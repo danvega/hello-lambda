@@ -1,7 +1,4 @@
 [build]
-  command = "yarn build"
+  command = "make build"
   functions = "lambda"
   publish = "dist"
-[build.environment]
-  # Change this path with the path to your repository
-  GO_IMPORT_PATH = "https://github.com/danvega/hello-lambda"
