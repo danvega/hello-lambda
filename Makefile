@@ -1,4 +1,4 @@
 build:
 	npm run build
-	go get go-functions
-	go install src/lambda
+	go get ./...
+	go build -o src/lambda/hello ./...
